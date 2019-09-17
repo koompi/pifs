@@ -2,12 +2,13 @@ from distutils.core import setup
 setup(
   name = 'pifs',         
   packages = ['pifs'],   
-  version = '1.0.0',      
+  version = '1.0.2',      
   license='MIT',       
-  description = 'project use to encrypt and decrypt ad upload to ipfs',
+  description = 'project use to encrypt and decrypt and upload to ipfs',
   author = 'Pionium',                
   author_email = 'pi@koompi.com',      
-  url = 'https://github.com/koompi/pifs.git',   
+  url = 'https://github.com/koompi/pifs.git',
+  download_url = 'https://github.com/koompi/pifs/archive/master.zip',
   entry_points = {
         "console_scripts": ['pifs-upload = pifs.upload:run',
                             'pifs-download = pifs.download:run',
