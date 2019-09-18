@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'pifs',         
   packages = ['pifs'],   
-  version = '2.0.1',      
+  version = '2.0.2',      
   license='MIT',       
   description = 'project use to encrypt and decrypt and upload to ipfs',
   author = 'Pionium',                
@@ -10,7 +10,7 @@ setup(
   url = 'https://github.com/koompi/pifs',   
   download_url = 'https://github.com/koompi/pifs/archive/master.zip',
   entry_points = {
-        "console_scripts": ['pifs = pifs.updown.py:run']
+        "console_scripts": ['pifs = pifs.updown:run']
         },
   install_requires=[      
           'ipfsapi',

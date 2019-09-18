@@ -73,4 +73,3 @@ def run():
         ipfsUpload(ecfile)
     elif(defile!="Empty"):
         ipfsDownload(defile)
-
