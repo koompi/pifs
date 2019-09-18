@@ -1,6 +1,7 @@
+# /usr/bin/env python
 import ipfshttpclient
 
-def ipfsFileFunction(filename):
+def ipfsFileAdd(filename):
     api = ipfshttpclient.connect('/ip4/127.0.0.1/tcp/5001/http') 
     ipfsLoadedFile = api.add(filename)
     ipfsHash = (ipfsLoadedFile['Hash'])

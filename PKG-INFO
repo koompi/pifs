@@ -1,11 +1,12 @@
 Metadata-Version: 1.1
 Name: pifs
-Version: 1.0.0
-Summary: project use to encrypt and decrypt ad upload to ipfs
+Version: 2.0.1
+Summary: project use to encrypt and decrypt and upload to ipfs
 Home-page: https://github.com/koompi/pifs
 Author: Pionium
-Author-email: laynathml@gmial.com
+Author-email: pi@koompi.com
 License: MIT
+Download-URL: https://github.com/koompi/pifs/archive/master.zip
 Description: UNKNOWN
 Platform: UNKNOWN
 Classifier: Intended Audience :: Developers

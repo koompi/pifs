@@ -1,14 +1,6 @@
-import argparse, sys, os, hashlib, optparse
+# /usr/bin/env python
+import sys, os
 from cryptography.fernet import Fernet
-
-def get_arguments1():
-    parser = optparse.OptionParser()
-    parser.add_option("-f", "--filename", dest="filename", 
-                      help="Enter your file name to encypt , Ex: myfile.ex")
-    (options, _ )= parser.parse_args()
-    if not options.filename:
-        parser.error("[-] Please spacify an filename, use --help for more info.")
-    return options
 
 
 def created_folder():
@@ -51,12 +43,5 @@ def encryptFs(filename):
         f = open(fen, 'wb')
         f.write(encrypted_file)
         f.close()
-   
-
-def usecmd():
-    options = get_arguments1()
-    filename = options.filename
-    return filename
-    
 
 
